@@ -1,7 +1,8 @@
 import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
-import mongoose from 'mongoose';
+
+import "./../db/dbConnect.js"
 
 const app = express();
 const PORT = process.env.PORT || 3000;
